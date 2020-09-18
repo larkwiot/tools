@@ -3,5 +3,9 @@ VSCode
     - Python3
     - pylint
     - Material Themes
+    - Docker
+    - XML tools
 DynamoRio w/ DrMemory
 OpenJDK
+Wireshark
+Git projects

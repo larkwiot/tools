@@ -7,3 +7,5 @@ deb http://debian.gtisc.gatech.edu/debian/ unstable main
 deb http://apt.llvm.org/unstable/ llvm-toolchain main
 
 deb http://downloads.metasploit.com/data/releases/metasploit-framework/apt lucid main
+
+deb [arch=amd64] https://download.docker.com/linux/debian buster stable
