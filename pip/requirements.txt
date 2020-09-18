@@ -1,5 +1,5 @@
 qiling
-unicorn
+unicorn==1.0.2rc4
 capstone
 frida-tools
 requests

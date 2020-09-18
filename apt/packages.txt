@@ -6,3 +6,5 @@ nmap ncat htop gparted netdiscover masscan
 libreoffice strace ltrace radare2 ghex
 apt-transport-https ca-certificates
 gnupg-agent software-properties-common
+make automake autoconf cmake nodejs npm
+gdb gdb-multiarch gcc g++ gcc-multilib

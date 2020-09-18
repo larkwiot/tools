@@ -8,4 +8,4 @@ deb http://apt.llvm.org/unstable/ llvm-toolchain main
 
 deb https://apt.metasploit.com/ sid main
 
-deb [arch=amd64] https://download.docker.com/linux/debian sid stable
+deb [arch=amd64] https://download.docker.com/linux/debian buster stable
