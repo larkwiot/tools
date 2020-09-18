@@ -4,3 +4,4 @@ capstone
 frida-tools
 requests
 numpy
+binwalk
