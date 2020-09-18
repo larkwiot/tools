@@ -5,4 +5,5 @@ ffmpeg vim flameshot qemu-system \
 qemu-user-static virt-manager \
 libboost-all-dev libtbb-dev \
 nmap ncat htop gparted netdiscover \
-masscan libreoffice
+masscan libreoffice strace ltrace \
+radare2 wireshark ghex
