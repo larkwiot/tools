@@ -21,3 +21,4 @@ pip3 install -r pip/requirements.txt
 # shell
 cp shell/mine.zsh-theme ~/.oh-my-zsh/themes
 cp shell/.zshrc ~/.zshrc
+cp shell/.vimrc ~/.vimrc

@@ -1,0 +1,7 @@
+VSCode
+    - C/C++
+    - Python3
+    - pylint
+    - Material Themes
+DynamoRio w/ DrMemory
+OpenJDK
