@@ -7,3 +7,6 @@ fzf
 curl
 wget
 qemu-user-static
+rsync
+zsh
+gnupg
