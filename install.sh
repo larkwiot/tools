@@ -18,6 +18,10 @@ apt install $(cat apt/pkgsfromrepos.txt) -y
 # pip
 pip3 install -r pip/requirements.txt
 
+apt update -y
+apt full-upgrade -y
+apt autoremove -y
+
 # shell
 cp shell/mine.zsh-theme ~/.oh-my-zsh/themes
 cp shell/.zshrc ~/.zshrc

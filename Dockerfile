@@ -5,7 +5,7 @@ FROM debian:unstable
 # not necessarily meant to be used directly, though
 # it very well could be if you really wanted to
 
-ADD ./ /stuff
+ADD ./apt /stuff/apt
 
 WORKDIR /stuff
 
@@ -17,9 +17,15 @@ RUN ./apt/keys.sh && \
     apt update -y && \
     apt install $(cat ./apt/pkgsfromrepos.txt) -y
 
+ADD ./ /stuff
+
 RUN ./misc/docker-compose.sh
 
 RUN pip3 install -r ./pip/requirements.txt
+
+RUN apt update -y
+RUN apt full-upgrade -y
+RUN apt autoremove -y
 
 RUN cp ./shell/mine.zsh-theme ~/.oh-my-zsh/themes
 RUN cp ./shell/.zshrc ~/.zshrc
