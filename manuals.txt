@@ -9,3 +9,7 @@ DynamoRio w/ DrMemory
 OpenJDK
 Wireshark
 Git projects
+Ghidra
+Binja
+IDA
+ZSH theme

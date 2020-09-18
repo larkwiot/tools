@@ -27,6 +27,5 @@ RUN apt update -y
 RUN apt full-upgrade -y
 RUN apt autoremove -y
 
-RUN cp ./shell/mine.zsh-theme ~/.oh-my-zsh/themes
 RUN cp ./shell/.zshrc ~/.zshrc
 RUN cp ./shell/.vimrc ~/.vimrc
