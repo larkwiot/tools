@@ -8,4 +8,4 @@ apt-key fingerprint 0EBFCD88
 wget -O - https://apt.llvm.org/llvm-snapshot.gpg.key | apt-key add -
 
 # metasploit
-wget -O - https://apt.metasploit.com/dists/buster/Release.gpg | apt-key add -
+wget -O - https://apt.metasploit.com/dists/sid/Release.gpg | apt-key add -
