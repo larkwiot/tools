@@ -1,0 +1,6 @@
+qiling
+unicorn
+capstone
+frida-tools
+requests
+numpy
