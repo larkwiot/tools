@@ -8,4 +8,4 @@ apt-transport-https ca-certificates
 gnupg-agent software-properties-common
 make automake autoconf cmake nodejs npm
 gdb gdb-multiarch gcc g++ gcc-multilib
-apt-file
+apt-file elvish exa
