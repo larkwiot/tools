@@ -11,3 +11,11 @@ edit:rprompt = {
 fn ls [@a]{ e:exa $@a }
 fn lsr [@a]{ e:exa --tree --level=3 $@a }
 fn ll [@a]{ e:exa -l $@a }
+
+fn dc [@a]{ e:docker-compose $@a }
+fn dcupd [@a]{ e:docker-compose up -d $@a }
+fn dcrestart [@a]{ e:docker-compose restart $@a }
+fn dcdn [@a]{ e:docker-compose down $@a }
+fn dclogs [@a]{ e:docker-compose logs $@a }
+
+fn ugly [@a]{ e:ug -nrQZ -e "" . }
