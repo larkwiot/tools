@@ -26,4 +26,5 @@ apt autoremove -y
 cp ./shell/mine.zsh-theme ~/.oh-my-zsh/themes
 cp ./shell/.zshrc ~/.zshrc
 cp ./shell/.vimrc ~/.vimrc
-cp ./shell/rc.elv ~/.elvish/
+
+cp ./shell/*.elv ~/.elvish/
