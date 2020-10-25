@@ -14,7 +14,7 @@ edit:rprompt = {
 fn ls [@a]{ e:exa $@a }
 fn lsr [@a]{ e:exa --tree --level=3 $@a }
 fn ll [@a]{ e:exa -l $@a }
-fn cat [@a]{ e:bat $@a }
+fn cat [@a]{ e:batcat $@a }
 fn fd [@a]{ e:fdfind $@a }
 fn vim [@a]{ e:micro $@a }
 
