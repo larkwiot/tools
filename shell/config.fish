@@ -14,3 +14,7 @@ alias dcdn="docker-compose down"
 alias dcrestart="docker-compose restart"
 
 alias ugly="ugrep -nrIQZ -e \"\""
+
+if not [ "$TMUX" ]
+    exec tmux && exit
+end
