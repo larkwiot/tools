@@ -18,6 +18,9 @@ alias dcpull="docker-compose pull"
 
 alias ugly="ugrep -nrIQZ -e \"\""
 
+alias top="bpytop"
+alias htop="bpytop"
+
 if not [ "$TMUX" ]
     exec tmux && exit
 end
