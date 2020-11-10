@@ -14,6 +14,7 @@ alias dclogs="docker-compose logs"
 alias dcupd="docker-compose up -d"
 alias dcdn="docker-compose down"
 alias dcrestart="docker-compose restart"
+alias dcpull="docker-compose pull"
 
 alias ugly="ugrep -nrIQZ -e \"\""
 
