@@ -21,6 +21,10 @@ alias ugly="ugrep -nrIQZ -e \"\""
 alias top="bpytop"
 alias htop="bpytop"
 
+alias wget="wget2"
+
+alias cp="rsync -v --progress"
+
 if not [ "$TMUX" ]
     exec tmux && exit
 end
