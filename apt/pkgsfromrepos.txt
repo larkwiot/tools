@@ -1,3 +1,0 @@
-docker-ce docker-ce-cli containerd.io
-clang llvm clangd lldb lld clang-format
-metasploit-framework
