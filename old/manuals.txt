@@ -1,0 +1,15 @@
+VSCode
+    - C/C++
+    - Python3
+    - pylint
+    - Material Themes
+    - Docker
+    - XML tools
+DynamoRio w/ DrMemory
+OpenJDK
+Wireshark
+Git projects
+Ghidra
+Binja
+IDA
+ZSH theme

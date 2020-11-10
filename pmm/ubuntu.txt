@@ -1,0 +1,3 @@
+libreoffice apt-transport-https ca-certificates
+flameshot apt-file pypy3 cinnamon gnupg
+gnupg-agent software-properties-common

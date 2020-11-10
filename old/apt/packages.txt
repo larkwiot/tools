@@ -1,0 +1,11 @@
+opam python3 pypy3 python3-dev python3-pip
+fzf curl wget rsync zsh gnupg git ffmpeg
+vim flameshot qemu-system qemu-user-static
+virt-manager libboost-all-dev libtbb-dev
+nmap ncat htop gparted netdiscover masscan
+libreoffice strace ltrace radare2 ghex
+apt-transport-https ca-certificates
+gnupg-agent software-properties-common
+make automake autoconf cmake nodejs npm
+gdb gdb-multiarch gcc g++ gcc-multilib
+apt-file elvish exa micro fd-find

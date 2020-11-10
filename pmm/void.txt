@@ -1,0 +1,8 @@
+alacritty batcat bpytop cmake docker fd fish-shell
+libfreeglut libwayland-egl make micro masscan
+nmap xclip tmux p7zip ugrep python3 python3-pip
+git wget libXcursor libXrandr fzf exa tbb boost
+boost-dev xtools curl bettercap ettercap wireshark
+virt-manager qemu qemu-user-static socat sysstat
+ffmpeg automake autoconf rsync gparted radare2
+openjdk11 openssh
