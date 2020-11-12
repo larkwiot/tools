@@ -5,4 +5,4 @@ git wget libXcursor libXrandr fzf exa tbb boost
 boost-dev xtools curl bettercap ettercap wireshark
 virt-manager qemu qemu-user-static socat sysstat
 ffmpeg automake autoconf rsync gparted radare2
-openjdk11 openssh
+openjdk11 openssh remind
