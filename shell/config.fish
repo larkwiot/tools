@@ -26,7 +26,7 @@ alias ugly="ugrep -nrIQZ -e \"\""
 alias top="bpytop"
 alias htop="bpytop"
 
-alias wget="wget2"
+alias wget="wget2 --progress bar --https-enforce soft"
 
 alias cp="rsync -v --progress"
 alias cpr="rsync -av --progress"
