@@ -5,6 +5,7 @@ set -x PATH $PATH:/home/me/lopt/thunderbird
 
 set -x EDITOR /bedrock/cross/bin/micro
 set -x PAGER /bedrock/cross/bin/most
+set -x BAT_THEME DarkNeon
 
 alias ls="exa -l"
 alias ll="exa -l"
