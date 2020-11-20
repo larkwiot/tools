@@ -40,7 +40,6 @@ alias leave="pkill alacritty"
 alias tohex="begin; echo 'obase=16;ibase=10'; cat -; end | bc"
 alias todec="begin; echo 'obase=10;ibase=16'; cat -; end | bc"
 alias sz="du -ch --max-depth=1 | sort -hr"
-alias su="sort -u"
 
 if not [ "$TMUX" ]
     tmux attach; or tmux
