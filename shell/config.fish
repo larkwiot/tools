@@ -32,8 +32,11 @@ alias wget="wget2 --progress bar --https-enforce soft"
 alias cp="rsync -v --progress"
 alias cpr="rsync -av --progress"
 
-alias leave="pkill alacritty"
+alias gzip="pigz"
+alias bzip2="pbzip2"
+alias locate="plocate"
 
+alias leave="pkill alacritty"
 alias tohex="begin; echo 'obase=16;ibase=10'; cat -; end | bc"
 alias todec="begin; echo 'obase=10;ibase=16'; cat -; end | bc"
 
