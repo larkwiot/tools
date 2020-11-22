@@ -6,4 +6,4 @@ boost-dev xtools curl bettercap ettercap wireshark
 virt-manager qemu qemu-user-static socat sysstat
 ffmpeg automake autoconf rsync radare2 remind
 openjdk11 openssh hyperfine evince pigz pbzip2
-plocate firefox mesa mesa-dri
+plocate firefox mesa mesa-dri xtools
