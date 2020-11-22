@@ -1,4 +1,8 @@
-set -x PATH $PATH:/sbin:/usr/sbin
+set -x PATH /bedrock/bin:/bedrock/cross/bin:/bedrock/cross/pin/bin:/bin
+set -x PATH $PATH:/sbin:/snap/bin:/usr/bin:/usr/games:/usr/local/bin
+set -x PATH $PATH:/usr/local/games:/usr/local/sbin:/usr/sbin
+
+set -x PATH $PATH:/home/me/bin
 set -x PATH $PATH:/home/me/.local/bin
 set -x PATH $PATH:/home/me/lopt/pycharm-community-2020.2.3/bin
 set -x PATH $PATH:/home/me/lopt/clion-2020.2.4/bin
