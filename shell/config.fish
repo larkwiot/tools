@@ -3,6 +3,7 @@ set PATH $PATH /home/me/.local/bin
 set PATH $PATH /home/me/lopt/pycharm-community-2020.2.3/bin
 set PATH $PATH /home/me/lopt/clion-2020.2.4/bin
 set PATH $PATH /home/me/lopt/thunderbird
+set PATH $PATH /home/me/lopt/minecraft-launcher
 
 set EDITOR micro
 set PAGER most

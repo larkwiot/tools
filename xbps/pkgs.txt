@@ -7,4 +7,4 @@ virt-manager qemu qemu-user-static socat sysstat
 ffmpeg automake autoconf rsync radare2 remind
 openjdk11 openssh hyperfine evince pigz pbzip2
 plocate firefox libreoffice ca-certificates
-font-hermit-otf
+font-hermit-otf void-repo-nonfree nvidia
