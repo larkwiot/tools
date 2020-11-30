@@ -1,0 +1,10 @@
+kitty bat bpytop cmake docker fd fish-shell
+make micro masscan remmina deepin-icon-theme
+nmap xclip tmux p7zip ugrep python3 python3-pip
+git wget fzf exa tbb boost gparted flameshot
+xtools curl bettercap ettercap wireshark most
+virt-manager qemu qemu-user-static socat sysstat
+ffmpeg automake autoconf rsync radare2 remind
+openjdk11 openssh hyperfine evince pigz pbzip2
+plocate firefox libreoffice ca-certificates
+font-hermit-otf void-repo-nonfree nvidia
