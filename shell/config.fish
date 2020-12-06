@@ -4,6 +4,7 @@ set PATH $PATH /home/me/lopt/pycharm-community-2020.2.3/bin
 set PATH $PATH /home/me/lopt/clion-2020.2.4/bin
 set PATH $PATH /home/me/lopt/thunderbird
 set PATH $PATH /home/me/lopt/minecraft-launcher
+set PATH $PATH /opt/010editor
 
 set EDITOR micro
 set PAGER most
@@ -47,6 +48,7 @@ alias leave="pkill kitty"
 alias tohex="begin; echo 'obase=16;ibase=10'; cat -; end | bc"
 alias todec="begin; echo 'obase=10;ibase=16'; cat -; end | bc"
 alias sz="du -ch --max-depth=1 | sort -hr"
+alias start_libvirt="sudo libvirtd -d -v && sudo virtlogd -d -v"
 
 if not [ "$TMUX" ]
     tmux attach; or tmux
