@@ -1,0 +1,4 @@
+libreoffice apt-transport-https ca-certificates
+flameshot apt-file pypy3 cinnamon gnupg wget2
+gnupg-agent software-properties-common most
+gparted
