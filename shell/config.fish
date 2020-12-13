@@ -6,9 +6,9 @@ set PATH $PATH /home/me/lopt/thunderbird
 set PATH $PATH /home/me/lopt/minecraft-launcher
 set PATH $PATH /opt/010editor
 
-set EDITOR micro
-set PAGER most
-set BAT_THEME DarkNeon
+set -x EDITOR micro
+set -x PAGER most
+set -x BAT_THEME DarkNeon
 
 alias ls="exa -l"
 alias ll="exa -l"
