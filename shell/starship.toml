@@ -4,7 +4,7 @@ $character"""
 [directory]
 truncation_length = 0
 truncate_to_repo = false
-format = "[<](dimmed gray)[$path](blue)[>](dimmed gray)"
+format = "[<](dimmed cyan)[$path](blue)[>](dimmed cyan)"
 
 [cmd_duration]
 format = "[$duration](dimmed cyan)"
@@ -12,9 +12,9 @@ min_time = 5
 show_milliseconds = true
 
 [character]
-success_symbol = "[»»»](green)"
-error_symbol = "[»»»](red)"
-vicmd_symbol = "[v](bold cyan)"
+success_symbol = "[»](dimmed green)[»](green)[»](fg:226)" # brights break
+error_symbol = "[»](dimmed red)[»](red)[»](fg:196)"
+vicmd_symbol = "[v](fg:11)"
 
 [memory_usage]
 threshold = 1
@@ -22,7 +22,7 @@ format = "[$ram_pct](dimmed cyan)"
 disabled = false
 
 [time]
-format = "[$time](bold green)"
+format = "[$time](fg:112)"
 disabled = false
 
 [git_branch]
