@@ -1,0 +1,42 @@
+format = """$time $directory $cmd_duration $memory_usage
+$character"""
+
+[directory]
+truncation_length = 0
+truncate_to_repo = false
+format = "[<](dimmed gray)[$path](blue)[>](dimmed gray)"
+
+[cmd_duration]
+format = "[$duration](dimmed cyan)"
+min_time = 5
+show_milliseconds = true
+
+[character]
+success_symbol = "[»»»](green)"
+error_symbol = "[»»»](red)"
+vicmd_symbol = "[v](bold cyan)"
+
+[memory_usage]
+threshold = 1
+format = "[$ram_pct](dimmed cyan)"
+disabled = false
+
+[time]
+format = "[$time](bold green)"
+disabled = false
+
+[git_branch]
+disabled = true
+[git_commit]
+disabled = true
+[git_state]
+disabled = true
+[git_status]
+disabled = true
+
+[nodejs]
+disabled = true
+[python]
+disabled = true
+[rust]
+disabled = true
