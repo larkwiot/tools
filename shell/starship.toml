@@ -26,8 +26,8 @@ format = "[$time](fg:112)"
 disabled = false
 
 [hostname]
-format = "ssh($style)[->](bold dimmed green)[$hostname]($style) "
-style = "underlined red"
+format = "[ssh]($style)[->](bold dimmed green)[$hostname]($style) "
+style = "underline red"
 ssh_only = true
 
 [git_branch]
