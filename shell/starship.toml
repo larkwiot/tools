@@ -1,4 +1,4 @@
-format = """$time $directory $cmd_duration $memory_usage
+format = """$hostname$time $directory $cmd_duration $memory_usage
 $character"""
 
 [directory]
@@ -24,6 +24,11 @@ disabled = false
 [time]
 format = "[$time](fg:112)"
 disabled = false
+
+[hostname]
+format = "ssh($style)[->](bold dimmed green)[$hostname]($style) "
+style = "underlined red"
+ssh_only = true
 
 [git_branch]
 disabled = true
