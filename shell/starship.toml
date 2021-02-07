@@ -1,5 +1,5 @@
 format = """$hostname$time $directory $cmd_duration $memory_usage
-$character"""
+$git_branch$character"""
 
 [directory]
 truncation_length = 0
@@ -31,7 +31,9 @@ style = "underline red"
 ssh_only = true
 
 [git_branch]
-disabled = true
+format = "<[$branch]($style)> "
+style = "purple"
+
 [git_commit]
 disabled = true
 [git_state]
