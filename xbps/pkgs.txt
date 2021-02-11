@@ -9,4 +9,4 @@ openjdk11 openssh hyperfine evince pigz pbzip2
 plocate firefox libreoffice ca-certificates
 font-hermit-otf void-repo-nonfree nvidia unzip
 boost-devel pcre2-devel liblzma-devel
-liblz4-devel
+liblz4-devel openntpd
