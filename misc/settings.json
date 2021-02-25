@@ -1,0 +1,55 @@
+{
+    "workbench.colorTheme": "Hyper Term Black",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.fontFamily": "Hermit",
+    "editor.suggestSelection": "first",
+    "editor.tokenColorCustomizations": {
+        "types": "#f0f2f2",
+        "functions": "#45abff",
+        "strings": "#d6dec1",
+        "variables": "#b1fc68",
+        "keywords": "#f0f2f2",
+        "textMateRules": [
+            {
+                "name": "control flow keywords",
+                "scope": [
+                    "keyword.control"
+                ],
+                "settings": {
+                    "foreground": "#FF0000",
+                    "fontStyle": "bold"
+                }
+            }
+        ]
+    },
+    "editor.semanticTokenColorCustomizations": {
+        "rules": {
+            "type": {
+                "foreground": "#f0f2f2"
+            },
+            "templateType": {
+                "foreground": "#f0f2f2"
+            },
+            "namespace": {
+                "foreground": "#ff85d8"
+            },
+            "parameter": {
+                "foreground": "#eb9942"
+            },
+            "class": {
+                "foreground": "#8bff19"
+            }
+        }
+    },
+    "terminal.integrated.shell.linux": "/usr/bin/fish",
+    "git.enableSmartCommit": true,
+    "git.confirmSync": false,
+    "git.autofetch": true,
+    "python.showStartPage": false,
+    "explorer.confirmDragAndDrop": false,
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.commentContinuationPatterns": [
+        "/**"
+    ],
+    "C_Cpp.enhancedColorization": "Enabled"
+}
