@@ -1,7 +1,7 @@
 set PATH /bin /sbin /usr/bin /usr/sbin /usr/local/bin /usr/local/sbin
 set PATH $PATH /home/me/.local/bin
-set PATH $PATH /home/me/lopt/pycharm-community-2020.2.3/bin
-set PATH $PATH /home/me/lopt/clion-2020.2.4/bin
+set PATH $PATH /home/me/.cargo/bin
+set PATH $PATH /home/me/.local/bin/crystal/bin
 set PATH $PATH /home/me/lopt/thunderbird
 set PATH $PATH /home/me/lopt/minecraft-launcher
 set PATH $PATH /opt/010editor
@@ -14,7 +14,7 @@ set -x EDITOR micro
 set -x PAGER most
 set -x BAT_THEME DarkNeon
 
-alias ls="ls -l --color=always"
+alias ls="ls -lh --color=always"
 alias ll="exa -l"
 alias la="ls -la --color=always"
 alias lt="exa --tree"
@@ -55,6 +55,9 @@ alias tohex="begin; echo 'obase=16;ibase=10'; cat -; end | bc"
 alias todec="begin; echo 'obase=10;ibase=16'; cat -; end | bc"
 alias sz="du -ch --max-depth=1 | sort -hr"
 alias start_libvirt="sudo libvirtd -d -v && sudo virtlogd -d -v"
+
+set -x fish_features stderr-nocaret
+source /home/me/Repos/spack/share/spack/setup-env.fish
 
 starship init fish | source
 

@@ -11,4 +11,4 @@ font-hermit-otf void-repo-nonfree nvidia unzip
 boost-devel pcre2-devel liblzma-devel xsel
 liblz4-devel openntpd LuaJIT-devel ghidra gimp
 openntpd bind-utils yarn nodejs ltrace strace
-upx
+upx binutils-devel
