@@ -11,7 +11,6 @@ set PATH $PATH $DENO_INSTALL/bin
 set DENO_DIR /home/me/.deno/cache
 
 set -x EDITOR micro
-set -x PAGER most
 set -x BAT_THEME DarkNeon
 
 alias ls="ls -lh --color=always"
@@ -54,10 +53,9 @@ alias leave="pkill kitty"
 alias tohex="begin; echo 'obase=16;ibase=10'; cat -; end | bc"
 alias todec="begin; echo 'obase=10;ibase=16'; cat -; end | bc"
 alias sz="du -ch --max-depth=1 | sort -hr"
-alias start_libvirt="sudo libvirtd -d -v && sudo virtlogd -d -v"
 
 set -x fish_features stderr-nocaret
-source /home/me/Repos/spack/share/spack/setup-env.fish
+source /home/me/clones/spack/share/spack/setup-env.fish
 
 starship init fish | source
 
