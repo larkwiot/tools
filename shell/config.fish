@@ -62,3 +62,6 @@ starship init fish | source
 if not [ "$TMUX" ]
     tmux attach; or tmux
 end
+
+# opam configuration
+source /home/me/.opam/opam-init/init.fish > /dev/null 2> /dev/null; or true

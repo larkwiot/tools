@@ -29,4 +29,4 @@ vim.api.nvim_exec(
     false
 )
 
-vim.api.command('set nowrap')
+vim.cmd('set nowrap')
